@@ -1,0 +1,25 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Beamer audit output
+beamer-check-output/
+
+# Internal session/agent artifacts
+agent_tasks/
+SESSION_REPORT.md
+
+# OS junk
+.DS_Store
+Thumbs.db

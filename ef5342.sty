@@ -1,0 +1,31 @@
+% ef5342.sty — shared EF5342 course Beamer theme.
+% All week decks must use this theme unchanged; per-week style overrides are
+% not allowed (the whole point is cross-week consistency).
+% Compile with pdfLaTeX only (no fontspec).
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{ef5342}[2026/09/06 EF5342 course theme]
+
+\usetheme{Madrid}
+\usecolortheme{whale}
+
+% Fonts — pdfLaTeX compatible
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% Core packages
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{enumerate}
+
+% Clean chrome: no navigation symbols, frame number only
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+% Default course metadata (override in the main .tex before \begin{document})
+\title{EF5342 Financial Systems, Markets and Instruments}
+\author{Prof.\ Weikai Li}
+\institute{City University of Hong Kong}
+\date{\today}
