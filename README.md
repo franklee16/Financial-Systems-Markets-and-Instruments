@@ -4,6 +4,8 @@ LaTeX Beamer versions of the 10 weekly lecture decks. The original PPTX files
 in `../` were the source of record during the 2026-09-06 migration; since the
 2026-09-09 fact refresh these decks lead the pptx on content (see Status).
 
+**Public mirror:** [github.com/franklee16/Financial-Systems-Markets-and-Instruments](https://github.com/franklee16/Financial-Systems-Markets-and-Instruments) — excludes `agent_tasks/`, `SESSION_REPORT.md`, LaTeX build artifacts, and `beamer-check-output/`. Push from this folder to keep them in sync.
+
 ## Layout
 
 ```
